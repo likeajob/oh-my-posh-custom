@@ -38,6 +38,20 @@
           "type": "sysinfo"
         },
         {
+          "background": "#303030",
+          "foreground": "#3C873A",
+          "leading_diamond": "\ue0b2",
+          "properties": {
+            "fetch_package_manager": true,
+            "npm_icon": " <#cc3a3a>\ue5fa</> ",
+            "yarn_icon": " <#348cba>\ue6a7</>"
+          },
+          "style": "diamond",
+          "template": "\ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
+          "trailing_diamond": "<transparent,#303030>\ue0b2</>",
+          "type": "node"
+        },
+        {
           "background": "#575656",
           "foreground": "#d6deeb",
           "leading_diamond": "\ue0b2",
