@@ -49,6 +49,14 @@
           "type": "node"
         },
         {
+          "background": "#ffffff",
+          "foreground": "#06aad5",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": "\ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "type": "go"
+        },
+        {
           "background": "#33658A",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
